@@ -1,0 +1,3 @@
+﻿  feature.cpp
+  gridIndex.cpp
+D:\面向对象课设\QGeometry\QGeometry\feature.h(28): error C4716: “GeoFeature::getGeometryType”: 必须返回一个值

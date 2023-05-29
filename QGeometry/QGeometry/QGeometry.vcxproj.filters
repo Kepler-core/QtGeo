@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{04bb4346-19a8-45f7-93d4-4574a9ea22e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\geoClass">
+      <UniqueIdentifier>{7eaf431e-666a-4114-8b9b-36d493978fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{98125f34-33e1-4e55-80ca-10b3f08e1a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\geoUtility">
+      <UniqueIdentifier>{0a60c50b-ba16-4c72-9167-70bb7426188c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\map">
+      <UniqueIdentifier>{4078f88c-f6d7-4a5e-96b6-0f314d9e07d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\index">
+      <UniqueIdentifier>{c9749bfb-fd08-4ea8-957b-18323ecd4a41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QGeometry.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="QGeometry.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="QGeometry.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="QGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="geoMath.cpp">
+      <Filter>Geometry\geoUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\QtGeometry\QtGeometry\geoPoint.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\QtGeometry\QtGeometry\geoPolygon.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="lineRing.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="lineString.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="mutiLineString.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="mutiPoint.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="mutiPolygon.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="geoCollection.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClCompile>
+    <ClCompile Include="feature.cpp">
+      <Filter>Geometry\map</Filter>
+    </ClCompile>
+    <ClCompile Include="gridIndex.cpp">
+      <Filter>Geometry\index</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geoBase.hpp">
+      <Filter>Geometry\geoClass</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="geoMath.h">
+      <Filter>Geometry\geoUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Geometry\geoClass</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Geometry\map</Filter>
+    </ClInclude>
+    <ClInclude Include="feature.h">
+      <Filter>Geometry\map</Filter>
+    </ClInclude>
+    <ClInclude Include="gridIndex.h">
+      <Filter>Geometry\index</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Geometry\index</Filter>
+    </ClInclude>
+    <ClInclude Include="spatialIndex.h">
+      <Filter>Geometry\index</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>Geometry\map</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
